@@ -28,14 +28,4 @@ pipeline
             }
         }
     }
-
-    post
-    {
-
-    	always
-    	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'selenium3bymukesh@gmail.com'
-    	}
-
-    }
 }
